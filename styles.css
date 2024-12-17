@@ -1,0 +1,138 @@
+body{
+    font-family: popins, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar{
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #nav-list{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #contact{
+    background-color: 30
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1rem;
+  }
+  
+  @media(max-width: 800px){
+    a:hover{
+  background-color: #34dd
+  }
+  
+  }
+  
+  #welcome-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+      60deg, 
+      #3a3d40 0%, 
+      #181719 100%
+      );
+  }
+  
+  h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 0;
+    padding-top: 10%;
+  }
+  
+  #welcome-section > p{
+    color: brown;
+    font-size: 2rem;
+    margin-top: 1%;
+  }
+  
+  .projects{
+    padding: 10rem 2rem;
+    text-align: center;
+    background-color: #34dd;
+  }
+  
+  
+  .projects > h2{
+    font-size: 2em;
+    color: white;
+    
+  }
+  
+  .project-img{
+    height: calc(100 -4.8rem);
+    width: 100%;
+    object-fit: cover;
+  }
+  .project-tile{
+    width: 100%;
+    color: white;
+    background-color: #303841;
+    margin: 0;
+    padding: 2rem 0;
+  
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  
+  #contact{
+    background-color: #303841;
+    width: 100%;
+    height: 80vh;
+    padding: 1rem 2rem; 
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+  #contact-header > h2{
+    font-size: 3.5rem;
+   Margin-bottom: 1rem;
+  }
+  
+  #contact-header > p{
+   font-size: 1.5rem;
+   margin-top: 0; 
+   text-align: center;
+  }
+  
+  .btn {
+   display: flex;
+   padding: 1rem;
+   align-items: center;
+   justify-content: center;
+   }
+  
